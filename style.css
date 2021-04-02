@@ -4,25 +4,25 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.matrix-container {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.matrix-container img {
+.header img {
   width: 100%;
 }
-.matrix-container .link-to-matrix {
+.header .link-to-matrix {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .matrix-container { 
+  .header { 
     text-align: center;
   }
 }
-.main-wrapper {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
